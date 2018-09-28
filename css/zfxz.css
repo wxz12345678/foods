@@ -1,0 +1,275 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*text-decoration: none;*/
+	list-style: none;
+}
+section{
+	height: 6.12rem;
+	width: 100%;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	background-color: #f31a68;
+	overflow: hidden;
+}
+.pre{
+	width: 100%;
+	height: 0.7rem;
+	margin-top: 0.24rem;
+}
+.pre ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ .pre ul a{
+ 	display: block;
+ 	color:#ffffff;
+ 	text-decoration: none;
+ 	font-size: 0.56rem;
+ }
+ .info{
+ 	width: 100%;
+ 	height: 1.6rem;
+    padding: 0.18rem  0.24rem;
+    box-sizing: border-box;
+ }
+ .info ul{
+ 	width: 100%;
+ 	height: 100%;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-between;
+ }
+ .info ul li p{
+ 	font-size:0.18rem ;
+ 	color: rgba(255,255,255,0.6);
+ }
+ .info ul li h1{
+ 	font-size:0.22rem ;
+ 	color: #FFFFFF;
+ 	float: left;
+ }
+ .info ul li i{
+ 	font-size:0.22rem ;
+ 	color: #FFFFFF;
+ 	float: right;
+ }
+ /*tit*/
+.tit{
+	width: 100%;
+	height: 2.3rem;
+	background-color: white;
+	border-radius: 0.2rem;
+	padding: 0.24rem;
+	box-sizing: border-box;
+}
+.tit div:first-of-type{
+	height:0.78rem ;
+	width: 100%;
+	border-bottom: 1px solid #cecacb;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.tit div h1{
+	color:#000000;
+	font-size: 0.28rem;
+}
+.tit div h2{
+	color:#db140f;
+	font-size: 0.22rem;
+}
+.tit div h3{
+	color:#db140f;
+	font-size: 0.22rem;
+}
+.tit div p{
+	color:#db140f ;
+	font-size: 0.24rem;
+}
+.tit div:first-of-type span{
+	display: block;
+}
+.tit div:first-of-type span h2{
+	display: block;
+	float: left;
+}
+.tit div:first-of-type span i{
+	display: block;
+	float: right;
+	color:#db140f ;
+	font-size: 0.22rem;
+}
+.tit div:last-of-type{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	line-height: 2;
+}
+.tit div:last-of-type span{
+	display: block;
+}
+.tit div:last-of-type span h3{
+	display: block;
+	float: left;
+}
+.tit div:last-of-type span i{
+	display: block;
+	float: right;
+	color:#db140f ;
+	font-size: 0.22rem;
+}
+/*定单开始*/
+main{
+	width: 100%;
+	position: fixed;
+	bottom: 1.34rem;
+	top: 5rem;
+	padding:0 0.24rem;
+	box-sizing: border-box;
+	margin-bottom: 0.24rem;
+}
+.main{
+	width: 100%;
+	height:100%;
+	background-color: white;
+	border-radius: 0.3rem;
+	border: 1px solid #cecacb;
+	overflow: hidden;
+    overflow-y: scroll;
+}
+.main-big{
+	width: 100%;
+	height: auto;
+	padding: 0.24rem;
+	box-sizing: border-box;
+	
+}
+.main-big li{
+	padding: 0.24rem;
+	box-sizing: border-box;
+	width: 100%;
+	border-bottom: 1px solid #cecacb;
+}
+.main-big li div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-big li h1{
+	font-size:0.26rem ;
+	color: #060606;
+}
+.pss img{
+	display: block;
+	float: left;
+	width:2rem ;
+	height:2rem;
+}
+.pss p{
+	display: block;
+	float: right;
+	font-size:0.24rem ;
+	color: #666666;
+	padding-left: 0.24rem;
+}
+.pssa img{
+	display: block;
+	float: left;
+	height:0.42rem ;
+	width:0.42rem;
+}
+.pssa p{
+	display: block;
+	float: right;
+	font-size:0.24rem ;
+	color: #666666;
+}
+.price{
+	color: #f81741;
+	font-size: 0.28rem;
+}
+.txte {
+	border: none;
+}
+.txte h6{
+	font-size: 0.26rem;
+	color: #060606;
+	float: left;
+}
+.txte input{
+	font-size: 0.26rem;
+	color: #bcbcbc;
+	float: right;
+	border: none;
+	
+}
+
+/*底部开始*/
+footer{
+	width: 100%;
+	height: 1.34rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.footer-top{
+	width: 100%;
+	height: 0.38rem;
+	background-color: #ffdbb7;
+	text-align: center;
+	font-size: 0.16rem;
+	color: #ae947b;
+	line-height: 0.38rem;
+	position: relative;
+}
+.footer-bottom{
+    width: 100%;
+    height: 0.96rem;
+}
+.footer-bottom-left{
+	display: block;
+	width: 58%;
+	height: 100%;
+	float: left;
+	background-color: #333333;
+	padding: 0.12rem;
+	box-sizing: border-box;
+}
+.footer-bottom-left img{
+	width: 0.76rem;
+	height: 0.76rem;
+	margin-bottom:2rem ;
+	position: absolute;
+	top: 0.26rem;
+	left:0.24rem;
+}
+.footer-bottom-left span{
+	display: block;
+	font-size:0.18rem ;
+	color: #cbcbcb;
+	padding-left:0.5rem ;
+	text-align: center;
+}
+.footer-bottom-left span p i{
+	font-size: 0.32rem;
+}
+.footer-bottom-right{
+	display: block;
+	width: 42%;
+	height: 100%;
+	float: right;
+	background-color: #f8303d;
+	text-align: center;
+	line-height:0.96rem;
+	color: white;
+	font-size: 0.28rem;
+}
+.footer-bottom a{
+	text-decoration: none;
+}
+

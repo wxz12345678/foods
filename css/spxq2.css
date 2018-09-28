@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+top ul li img{
+	width: 100%;
+	height:5rem ;
+}
+top ul li {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.xq{
+	margin-top: 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.24rem;
+}
+.xq img{
+	width:1.55rem ;
+	height: 0.48rem;
+}
+.xq p{
+	font-size: 0.16rem;
+	color: #b3b1b2;
+}
+.xq h1{
+	font-size:0.32rem ;
+	color: #f62e52;
+}
+.xq del{
+	font-size:0.26rem ;
+	color:#b3b1b2;
+}
+.info{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.1rem 0.24rem;
+}
+.info h2{
+	color: #060606;
+	font-size:0.26rem ;
+}
+.info a img , .info a{
+	width:0.42rem ;
+	height: 0.42rem;
+	display: block;
+}
+.sec{
+	width: 100%;
+	height: 0.06rem;
+	background-color: #dfdfdf;
+	margin-top: 0.06rem;
+	box-sizing: border-box;
+}
+main .tit{
+	color:#494544 ;
+	font-size: 0.3rem;
+	text-align: center;
+	padding: 0.16rem 0;
+}
+.scroll{
+	width: 100%;
+	position: fixed;
+	bottom:1.34rem ;
+	top:7.42rem;
+	background-color: #dfdfdf;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+}
+.scrollwrap{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+    overflow-y: scroll;	
+}
+.scrollwrap ul li{
+	width: 3.3rem;
+	height: 3.8rem;
+	background-color: white;
+	border-radius: 0.3rem;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0.2rem;
+	box-sizing: border-box;
+	margin: 0.12rem 0;
+}
+.scrollwrap ul li:nth-of-type(2n){
+	margin-left:0.38rem ;
+}
+.scrollwrap ul li div img{
+	width: 100%;
+	height: 1.86rem;
+}
+.titinfo{
+	display: flex;
+	justify-content: space-between;
+}
+.titinfo span{
+	display: flex;
+	justify-content: space-between;
+}
+.scrollwrap ul li div h2{
+	color: #f6103e;
+	font-size:0.28rem ;
+}
+.scrollwrap ul li .titinfo h1{
+	color: #050505;
+	font-size: 0.24rem;
+}
+.scrollwrap ul li .titinfo span img , .scrollwrap ul li .titinfo span a{
+	height: 0.42rem;
+	width: 0.42rem;
+	display: block;
+}
+.scrollwrap ul li div span p{
+	color: #b2b2b2;
+	font-size: 0.16rem;
+}
+
+
+
+
+/*footer开始*/
+footer{
+	width: 100%;
+	height: 1.34rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.footer-top{
+	width: 100%;
+	height: 0.38rem;
+	background-color: #ffdbb7;
+	text-align: center;
+	font-size: 0.16rem;
+	color: #ae947b;
+	line-height: 0.38rem;
+	position: relative;
+}
+.footer-bottom{
+    width: 100%;
+    height: 0.96rem;
+}
+.footer-bottom-left{
+	text-decoration: none;
+	display: block;
+	width: 58%;
+	height: 100%;
+	float: left;
+	background-color: #333333;
+	padding: 0.12rem;
+	box-sizing: border-box;
+}
+.footer-bottom-left img{
+	width: 0.76rem;
+	height: 0.76rem;
+	margin-bottom:2rem ;
+	position: absolute;
+	top: 0.26rem;
+	left:0.24rem;
+}
+.footer-bottom-left p{
+	display: block;
+	font-size:0.18rem ;
+	color: #cbcbcb;
+	padding-left:0.5rem ;
+	text-align: center;
+}
+.footer-bottom-right{
+	display: block;
+	text-decoration: none;
+	width: 42%;
+	height: 100%;
+	float: right;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: #717171;
+	color: #d7d7d7;
+	font-size: 0.16rem;
+	padding: 0.12rem;
+}
+

@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	background-color: #eee8e8;
+}
+section{
+	width: 100%;
+	height: 1.8rem;
+	text-align: center;
+	margin-top: 1.18rem;
+	margin-bottom: 0.76rem;
+	box-sizing: border-box;
+}
+section img {
+	height: 1.8rem;
+	width: 1.8rem;
+}
+.bg{
+	width: 5.16rem;
+	height:1rem;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #f63681;
+	border-radius: 0.3rem;
+}
+.main{
+	width: 6.1rem;
+	height: 6rem;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -0.83rem;
+	border-radius: 0.3rem;
+}
+.main ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	height: 4.4rem;
+	padding-top: 0.2rem;
+}
+.main ul li input{
+	height:0.7rem ;
+	width: 4.94rem;
+	border: none;
+	border:1px solid #ababab ;
+	text-indent: 0.4rem;
+	color: #c4c4c4;
+	font-size:0.28rem;
+}
+.main ul li:first-of-type{
+	position: relative;
+}
+.main ul li:nth-of-type(2){
+	position: relative;
+}
+.main ul li:last-of-type input{
+	height:0.7rem ;
+	width: 4.94rem;
+	border: none;
+	text-indent: 0.3rem;
+	color: white;
+	font-size:0.32rem;
+	background-color: #f63681;
+	box-shadow: 0rem 0rem 0.6rem 0.2rem #fcdbe6;
+}
+span{
+	display: block;
+	height:0.06rem;
+	width:0.15rem;
+    background-color: #fea429;
+    box-shadow: 0 0 0.4rem 0.1rem #ffe9ca;
+    border-radius: 0.3rem;
+}
+ul li span.btn1{
+	display: block;
+    position:absolute;
+	left:0.66rem ;
+	top:0.9rem;  
+}
+ul span.btn2{
+	position: absolute;
+	left:0.66rem ;
+	top:0.9rem;
+}
+.no{
+	width: 4.94rem;
+	height: 0.3rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.2rem;
+}
+.no a:first-of-type{
+	display: block;
+	float: left;
+	color: #c5c5c5;
+	font-size: 0.22rem;
+}
+.no a:last-of-type{
+	float: right;
+	display: block;
+	color: #c5c5c5;
+	font-size: 0.22rem;
+}
+footer{
+	width: 100%;
+	height: 1.8rem;
+	position: fixed;
+	bottom: 0.8rem;
+	left: 0;
+}
+footer p{
+	font-size: 0.28rem;
+	color: #b7b3b2;
+	text-align: center;
+}
+footer ul {
+	display: flex;
+	justify-content: space-between;
+	padding-left:1.72rem ;
+	padding-right:1.72rem ;
+}
+footer ul li a:first-of-type{
+	color: #68bef9;
+	font-size: 0.6rem;
+}
+footer ul li:nth-of-type(2) a{
+	color: #75da4e;
+	font-size: 0.6rem;
+}
+footer ul li:last-of-type a{
+	color: #d6282a;
+	font-size: 0.6rem;
+}

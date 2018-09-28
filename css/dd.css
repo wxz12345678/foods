@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+top{
+	display: block;
+	height: 1.2rem;
+	width: 100%;
+	background-color: #f31a68;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+top span{
+	display: block;
+	text-align: center;
+	font-size:0.4rem ;
+	color: white;
+	line-height: 1.2rem;
+}
+/*订单正文开始*/
+main{
+	width: 100%;
+	position: fixed;
+	top:1.2rem;
+	bottom: 1.2rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+}
+section{
+	width: 100%;
+	height: auto;
+}
+section ul li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 2.5rem;
+	width: 100%;
+	box-shadow:0.1rem 0.1rem 0.18rem #faa2bf;
+	background-color: white;
+	margin-top: 0.24rem;
+	padding: 0.24rem;
+	box-sizing: border-box;
+}
+.ps , .ps img{
+	height:2rem;
+	width:2rem;
+}
+.tit{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;	
+}
+.tit h1{
+	font-size: 0.26rem;
+	color:#000000;
+}
+.star{
+	width: 1rem;
+	height:0.2rem;
+	position: relative;
+}
+.yellowstar , .graystar{
+	height: 0.2rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.yellowstar img , .graystar img {
+	display: block;
+	width: 1rem;
+	height: 100%;
+	margin-top: 0;
+	overflow: hidden;
+}
+ul span{
+	font-size:0.2rem ;
+	color:#837e7e ;
+}
+section ul li div h2{
+	font-size:0.2rem ;
+	color:#7c7c7c;
+}
+section ul li div h3{
+	font-size:0.24rem ;
+	color:#c00e4c;
+}
+.btn{
+	display: block;
+	height:auto;
+	width: 3rem;
+}
+.btn a , .btn a img{
+	height:0.45rem ;
+	width: 1.49rem;
+	display: block;
+}
+.btn-img1{
+	float: left;
+	display: block;
+	/*margin-right: 0.5rem;*/
+}
+.btn-img2{
+	float: left;
+	display: block;
+}
+/*底部开始*/
+footer{
+	height:1.2rem;
+	width: 100%;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	position: fixed;
+	bottom:0;
+	left: 0;
+}
+footer ul{
+	height:1.2rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-size:0.18rem;
+}
+footer ul li , footer ul li a{
+	height: 100%;
+	width: 0.6rem;
+	text-align: center;
+	line-height: 1.5;
+}
+footer ul li a{
+	display: block;
+	text-decoration: none;
+	color: #4c4c4c;
+}
+footer ul li a i{
+	font-size:0.40rem !important;
+}
+footer ul li a span{
+	font-size: 0.26rem;
+}
+footer ul li a.hot6{
+	color: #f64d88 ;
+}
+/*底部结束*/

@@ -1,0 +1,196 @@
+@import url("base.css");
+.top{
+	width: 7.5rem;
+	height:0.84rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	background-color: #f31a68;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.38rem;
+	color: white;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+.scroll{
+	width: 100%;
+	height: 0.84rem;
+	padding: 0 0.24rem;
+	background-color: #f31a68;
+	box-sizing: border-box;
+	position: fixed;
+	top:0.84rem;
+	left: 0;
+	z-index: 999;
+}
+.scrollWrap{
+	height: 100%;
+	width: auto;
+	font-size: 0.3rem;
+	/*white-space: nowrap;*/
+	/*overflow:auto;*/
+}
+.scrollWrap-tab{
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.scrollWrap-tab li{
+	display: inline-block;
+}
+.scrollWrap-tab li a{
+	display: inline-block;
+	text-decoration: none;
+	color:rgba(255,255,255,0.6);
+	width: auto;
+	padding: 0 0.6rem 0 0;
+	text-align: center;
+	line-height: 0.84rem;
+}
+.scrollWrap-tab li a.hot{
+	color: white;
+}
+/*头部结束*/
+/*正文开始*/
+.main-top{
+	width: 100%;
+	height:1rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	background-color: white;
+	border-bottom: 1px solid #dddddd;
+	position: fixed;
+	top: 1.68rem;
+	left: 0;
+	z-index: 999;
+}
+.main-top-tab{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-top-tab li a , .main-top-tab li {
+	display: block;
+	height: 100%;
+	text-decoration: none;
+	font-size:0.28rem ;
+	color: #929191;
+	line-height: 1.2rem;
+}
+.main-top-tab li a.hot1{
+	color: #666666;
+}
+/*正文头结束*/
+/*正文开始*/
+section{
+/*	float: left;*/
+	/*height: 7.98rem;*/
+	position: absolute;
+	top:2.68rem;
+	bottom:0;
+	margin-top:auto;
+	margin-bottom:auto;
+	width: 100%;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	/*margin-top: 2.68rem;*/
+}
+.main{
+	width: 100%;
+	height: auto;
+}
+.first-main{
+	display: block;
+	width: 100%;
+	height: 2.48rem;
+/*	border:1px solid #C7C7C7;*/
+	box-shadow:0.1rem 0.1rem 0.18rem #f6f4f5;
+	background-color: white;
+	padding: 0.24rem;
+	box-sizing: border-box;
+	margin-bottom: 0.1rem;
+	display: flex;
+}
+.first-main img{
+	width: 2rem;
+	height:2rem;
+	float: left;
+}
+.first-main-right{
+	flex-grow: 1;/*自适应*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 0.25rem;
+    ppadding-right:0.25rem ;
+    overflow: hidden;
+}
+.first-main-right h1{
+	display: bllock;
+	color: #060606;
+	font-size:0.2rem ;
+}
+.star{
+	height: 0.2rem;
+	width: 1rem;
+	position: relative;
+} 
+.yellowStar , .grayStar {
+	height: 0.2rem;
+	/*width: 1rem;*/
+	position: absolute;
+	top:0;
+	left: 0;
+	overflow: hidden;
+}
+.yellowStar img , .grayStar img{
+	height: 100%;
+	width:1rem;
+}
+.first-main span{
+	width: 100%;
+	height: 0.22rem;
+	display: flex;
+	justify-content: space-between;
+}
+.first-main span p{
+	font-size: 0.1rem;
+	color: #848381;
+}
+.first-main span p .p1{
+	float: left;
+	/*font-size: 0.1rem;
+	color: #848381;*/
+}
+.first-main span p .p2{
+	float: right;
+	/*font-size: 0.1rem;
+	color: #848381;*/
+}
+.manj{
+	display: flex;
+	justify-content: space-between;
+}
+.manj img{
+	width: 0.6rem;
+	height:0.24rem
+} 
+.manj p{
+	color:#877c84;
+	font-size:0.18rem ;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.shou img{
+	width: 0.6rem;
+	height:0.24rem
+} 
+.shou p{
+	color:#877c84;
+	font-size:0.18rem ;
+}

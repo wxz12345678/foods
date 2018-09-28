@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+section , section img {
+	width:100% ;
+	height: 8.51rem;
+	text-decoration: none;
+	list-style: none;
+}
+span a img , span a {
+	width:2.01rem ;
+	height:0.84rem ;
+}
+span a{
+	display: block;
+	text-decoration: none;
+}
+span a:first-of-type{
+	float: left;
+}
+span a:last-of-type{
+	float: right;
+}
+span{
+	display: block;
+	height: 1rem;
+	width: 100%;
+	margin-top: 2.8rem;
+	padding: 0 0.72rem;
+	box-sizing: border-box;
+}
